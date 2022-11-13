@@ -1,0 +1,18 @@
+{
+    "argv": [
+        "python",
+        "-m",
+        "ipykernel_launcher",
+        "-f",
+        "{connection_file}"
+    ],
+    "display_name": "PySpark 3",
+    "language": "python",
+    "env": {
+        "PYSPARK_PYTHON": "/usr/bin/python3",
+        "PYTHONPATH": "/opt/tdp/spark3/python/:/opt/tdp/spark3/python/lib/py4j-0.10.9.5-src.zip",
+        "SPARK_CONF_DIR": "/etc/spark3/conf",
+        "SPARK_HOME": "/opt/tdp/spark3",
+        "SPARK_OPTS": "--master yarn --conf spark.ui.port=0"
+    }
+}
