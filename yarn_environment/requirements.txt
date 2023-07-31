@@ -1,5 +1,7 @@
 jupyterhub==2.3.1
 jupyterhub_yarnspawner==0.4.0
+jupyter-hdfscm==0.2.0
+jupyter-fs== 0.3.1
 jupyterlab==3.2.9
 notebook==6.4.10
 numpy==1.19.5
